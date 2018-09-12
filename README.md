@@ -1,1 +1,3 @@
-### JAVASCRIPT SANDBOX
+### JAVASCRIPT SANDBOX :blush: :blush:
+
+1. Console log
