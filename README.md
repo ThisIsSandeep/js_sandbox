@@ -15,3 +15,4 @@
 13. Function Declaration
 14. Loops and Iteration
 15. Window Object
+16. Block Scope Let and Const
