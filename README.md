@@ -5,3 +5,4 @@
 3. Date Types
 4. Type Conversion
 5. Numbers The Math Object
+6. String Methods and Concatenation
