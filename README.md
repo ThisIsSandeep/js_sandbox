@@ -7,3 +7,4 @@
 5. Numbers The Math Object
 6. String Methods and Concatenation
 7. Template Literals
+8. Array Methods
