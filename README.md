@@ -14,3 +14,4 @@
 12. Switch statement
 13. Function Declaration
 14. Loops and Iteration
+15. Window Object
