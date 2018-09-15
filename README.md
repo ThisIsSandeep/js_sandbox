@@ -10,3 +10,4 @@
 8.  Array Methods
 9.  Object Literals
 10. Date and Times
+11. If Statements and Comparision Operators
