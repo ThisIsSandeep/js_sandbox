@@ -8,3 +8,4 @@
 6. String Methods and Concatenation
 7. Template Literals
 8. Array Methods
+9. Object Literals
