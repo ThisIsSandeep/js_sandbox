@@ -11,3 +11,4 @@
 9.  Object Literals
 10. Date and Times
 11. If Statements and Comparision Operators
+12. Switch statement
