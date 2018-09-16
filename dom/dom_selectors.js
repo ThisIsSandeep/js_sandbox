@@ -38,3 +38,53 @@ document.querySelector('li:last-child').style.color = 'yellow';
 document.querySelector('li:nth-child(4)').textContent = 'Hello World';
 document.querySelector('li:nth-child(odd)').style.backgroundColor = '#ccc';
 document.querySelector('li:nth-child(even)').style.backgroundColor = '#f4f4f4';
+
+console.clear();
+// DOM SELECTOR FOR MULTIPLE ELEMENTS
+
+// document.getElementsByClassName();
+const items = document.getElementsByClassName('list-group-item');
+console.log(items);
+console.log(items[0]);
+items[0].style.color = 'red';
+items[1].textContent = 'Hello';
+
+const listItems = document
+  .querySelector('ul')
+  .getElementsByClassName('list-group-item');
+
+console.log(listItems);
+console.clear();
+
+// document.getElementByTagname()
+let lis = document.getElementsByTagName('li');
+console.log(lis);
+console.log(lis[0]);
+lis[0].style.color = 'white';
+lis[1].textContent = 'Hello Save';
+
+// Covert HTML collection into array
+lis = Array.from(lis);
+lis.reverse();
+lis.forEach(function(li, index) {
+  console.log(li.className);
+  li.textContent = `Index ${index}: Hello`;
+});
+
+console.log(lis);
+console.clear();
+
+// querySelectorAll()
+const lItems = document.querySelectorAll('ul.list-group li.list-group-item');
+
+lItems.forEach(function(item) {
+  console.log(item);
+});
+
+const liOdd = document.querySelectorAll('li:nth-child(odd)');
+
+liOdd.forEach(function(li, index) {
+  li.style.backgroundColor = '#ccc';
+});
+
+console.log(lItems);
