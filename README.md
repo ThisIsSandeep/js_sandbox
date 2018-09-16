@@ -25,3 +25,4 @@
 4. Traversing The Dom
 5. Create Element
 6. Remove Replace Element
+7. Event Listeners The Event Object
