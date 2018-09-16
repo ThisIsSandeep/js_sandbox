@@ -22,3 +22,4 @@
 1. Dom Object
 2. Dom Single selector
 3. Dom Multiple selector
+4. Traversing The Dom
